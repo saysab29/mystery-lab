@@ -1,16 +1,57 @@
-# React + Vite
+# 🕵️ Mystery Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### AI-Powered Personalized Mystery Games
 
-Currently, two official plugins are available:
+Mystery Lab is an AI-powered web application that creates personalized,
+interactive mystery games using your friends, stories, inside jokes,
+favorite things, and special occasions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Players solve puzzles, uncover clues, and ultimately identify the person
+responsible.
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://mystery-lab-five.vercel.app/
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🤖 AI-generated personalized mysteries
+- 🕵️ Multiple suspects and unique storylines
+- 🧩 Interactive puzzle progression
+- 🔍 Clues that help solve the mystery
+- 💡 Hint system
+- 🎯 Difficulty levels
+- 🏆 Scoring system
+- 🕵️ Final culprit accusation
+- 🎉 Personalized stories for birthdays, farewells, anniversaries,
+  parties, and more
+
+## 🎮 How It Works
+
+1. Choose an occasion
+2. Enter the person the mystery is about
+3. Select a mystery type
+4. Add characters
+5. Add personal details and inside jokes
+6. Choose a difficulty
+7. Generate the mystery
+8. Solve the puzzles
+9. Identify the culprit
+10. Solve the case 🎉
+
+## 🏗️ Architecture
+
+```text
+React + Vite
+     │
+     ▼
+Vercel
+     │
+     ▼
+Node.js + Express API
+     │
+     ▼
+Render
+     │
+     ▼
+Google Gemini API
