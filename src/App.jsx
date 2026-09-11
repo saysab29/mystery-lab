@@ -53,7 +53,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:3001/api/generate-mystery",
+        "https://mystery-lab-api.onrender.com/api/generate-mystery",
         {
           method: "POST",
           headers: {
