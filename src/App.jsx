@@ -621,7 +621,7 @@ function App() {
               <input
                 type="text"
                 name="name"
-                placeholder="e.g. Sabreen"
+                placeholder="Enter the name"
                 value={formData.name}
                 onChange={handleChange}
                 required
